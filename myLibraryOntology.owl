@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:8ab71577-dd3a-4df2-a25f-ef795e8fad79#"
+     xml:base="urn:webprotege:ontology:8ab71577-dd3a-4df2-a25f-ef795e8fad79"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:8ab71577-dd3a-4df2-a25f-ef795e8fad79"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/coverage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/coverage"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
+        <rdfs:label xml:lang="en">dc:subject</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type">
+        <rdfs:label xml:lang="en">dc:type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IavdJMsLUxHIq4hopSeJy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IavdJMsLUxHIq4hopSeJy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCfB5UaSq4giurivejmGhzG"/>
+        <rdfs:label xml:lang="en">science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TPQrY15M6grBGh7iNbnXR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TPQrY15M6grBGh7iNbnXR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBI13TFG9ydLHldG3rwDH2"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. Nihal Ercan</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hasan Akgül</dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257243773</dc:identifier>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gece Kitaplığı</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Theory+and+research+in+science+and+mathematics&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/theory-and-research-in-science-and-mathematic/foreign-languages/reference/science/urunno=0001904355001"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics and Researchs</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics and Theories</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science and Research</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science and Theory</dc:subject>
+        <dc:title xml:lang="en">Theory and Research in Science and Mathematic</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label xml:lang="en">theory_and_research_in_science_and_mathematic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Q6R7O0napfln9aKVc9VmK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Q6R7O0napfln9aKVc9VmK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNQ8a37AGUmic7oaN1MMfD"/>
+        <dc:coverage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İstanbul-Türkiye</dc:coverage>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metin Arık</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description xml:lang="tr">Üç boyutlu düzgün ve yarı düzgün geometrik şekiller binlerce yıl öncesinden Platon ve Arşimed şekilleri olarak bilinir. Geçen zaman içinde bu şekiller üzerinde yapılan bilimsel çalışmaları ve yazarların ortaya çıkardığı yeni bulguları kitapta göreceksiniz. Ayrıca şekilleri tek tek incelemenin yanında birlikte kullanımlarının özellikleri de renkli görsel malzemelerle anlatılmıştır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6053123978</dc:identifier>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053123972</dc:identifier>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tübitak Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tübitak Yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=&amp;cwid=2&amp;keyword=%C3%9C%C3%A7+ve+D%C3%B6rt+Boyutlu+D%C3%BCzg%C3%BCn+ve+Yar%C4%B1+D%C3%BCzg%C3%BCn+Geometrik+%C5%9Eekiller&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/Kitap/Uc-ve-Dort-Boyutlu-Duzgun-ve-Yari-Duzgun-Geometrik-Sekiller/Bilim/Matematik/urunno=0001911660001"/>
+        <dc:source xml:lang="tr">https://www.amazon.com.tr/D%C3%B6rt-Boyutlu-D%C3%BCzg%C3%BCn-Geometrik-%C5%9Eekiller/dp/6053123978</dc:source>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3d</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4d</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometric</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometrik yapılar</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyhedra</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çok yüzlü cisimler</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İkilik teorisi (Matematik)</dc:subject>
+        <dc:title xml:lang="tr">Üç ve Dört Boyutlu Düzgün ve Yarı Düzgün Geometrik Şekiller</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label xml:lang="en">uç_ve_dort_boyutlu_duzgun_ve_yari_duzgun_geometrik_sekiller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aPFRs5GDsj5tiE7B4gYX4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aPFRs5GDsj5tiE7B4gYX4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDH4EHyRFOVbEfo9HHsP3"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zülal Kılıç</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoichiro Nambu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:description xml:lang="tr">Temel parçacık fiziğinin amacı, maddenin temel yapısını ve bu nesnelere egemen olan yasaları bulmaktır. Bu kitapta, geçen elli yıl içinde fizikçilerin parçacık fiziğini nasıl geliştirdikleri ayrıntılı ve bütünsel bir şekilde açıklanıyor. Ayrıca bu bilim dalı, eskiden birbiriyle ilişkisiz sanılan çeşitli doğa kuvvetlerini birleştirme imkanı olduğunu da keşfetti. Bugün artık en büyük nesne olan evrenin tarihi, düşünülebilir en küçük ölçeğin sorunlarıyla iç içe geçmiştir. Birleşik alan kuramlarının sağladıkları ilerlemeye karşın daha yanıtlanmamış pek çok soru bulunmaktadır. Geçmiş deneylerimize bakacak olursak doğa zaman zaman bize kendisinin beklentilerimizden daha zengin ve daha karmaşık olduğunu göstermiştir. Bu nedenle gelecek büyük olasılıkla sürprizlerle dolu olacaktır. Ancak, Y. Nambu’ya göre bizi gerçekten şaşırtacak şey belki de doğa sırlarının birbiri ardına ışığa çıkartılmasıdır. Maddenin bir parçasını oluşturan bizlerin, evrenin doğuşundan on milyar yıl sonra, bir an sayılabilecek bir zaman süresinde, evreni yöneten yasaları bulmaya, onun tarihini öğrenmeye ve aynı zamanda maddenin kendisinin sonlu bir ömre sahip geçici bir varlık olduğunu kavramaya başladığımızı düşünmek, esrarlı bir deneyimdir.
+
+Prof. Yoichiro Nambu 1921’de Tokyo’da doğdu. Doktora derecesini 1952’de Tokyo Üniversitesi’nden aldı. 1940’ların sonlarında kuantum elektrodinamiğinin formüle edildiği sıralarda Prof. S. Tomonaga ile beraber çalışıyordu. 1952’de Princeton’daki İleri Araştırma Enstitüsü’ne davet edildi. 1958’de Chicago Üniversitesi’nde fizik profesörü oldu. Aynı okulda 1974-1977 yılları arasında Fizik Bölümü’nün başkanlığını yaptı. Nambu, temel parçacık kuramının gelişimine çok önemli katkılarda bulundu. 2008’de aldığı Nobel Ödülü dahil olmak üzere pek çok ödülün sahibidir.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786054238477</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boğaziçi Üniversitesi Yayınevi</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Kuarklar+%3A+temel+par%C3%A7ac%C4%B1k+fizi%C4%9Finin+s%C4%B1n%C4%B1rlar%C4%B1&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/kuarklar-temel-parcacik-fiziginin-sinirlari/bilim/fizik/urunno=0000000356173"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nükleer Fizik</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quarks</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temel Parçacıklar</dc:subject>
+        <dc:title xml:lang="tr">Kuarklar - Temel Parçacık Fiziğinin Sınırları</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">books</dc:type>
+        <rdfs:label xml:lang="en">Kuarklar-Temel-Parçacık-Fiziğinin-Sınırları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eAZkeBhmpwuPfuqlHsW6z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8eAZkeBhmpwuPfuqlHsW6z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHjV5FV2UoxdVSJ0tLyWOa"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektif</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erdal Turgut</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korkmaz Selçuk</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dc:date>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055681234</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detay Yayıncılık</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Elektrik+enerjisi+%C3%BCretimi+iletimi+ve+da%C4%9F%C4%B1t%C4%B1m%C4%B1&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/Kitap/Elektrik-Enerjisi-Uretimi-Iletimi-ve-Dagitimi/Kolektif/Bilim/Muhendislik/urunno=0000000507632"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electric power plants</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electric power transmission</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektrik gücü iletimi</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektrik gücü santralleri</dc:subject>
+        <dc:title xml:lang="tr">Elektrik Enerjisi Üretimi İletimi ve Dağıtımı</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektrik_Enerjisi_Uretimi_Iletimi_ve_Dagitimi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94NYxw0wePQOcDrZAjEkhG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94NYxw0wePQOcDrZAjEkhG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RI5B2kYI1JOJtfV6S1EGnR"/>
+        <rdfs:label xml:lang="en">physicsEngineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lA3JIvJPPhXN25fXC9EhU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lA3JIvJPPhXN25fXC9EhU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NYxw0wePQOcDrZAjEkhG"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferhan Sami Atalay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="tr">Kütle ve enerji denklikleri fiziksel ve biyolojik değişimlerin yer aldığı süreçlerin analiz ve tasarımlarında önemli rol oynarlar. Bunun sonucu olarak, kütle-enerji denkliklerinin temel ilke ve uygulamalarını kapsayan dersler, kimya, gıda, biyomühendislik eğitim programlarında yer alırlar.
+
+Endüstride gerek ürün kalitesi, gerekse tesisin güvenli çalıştırılmasında kritik bir rol oynayan süreç denetiminin temel kavramları da, kütle-enerji denkliklerinden elde edilmektedir. Bu kitapta kütle ve enerji denkliklerinin temel kavramları verilmiş ve fiziksel, kimyasal ve biyolojik değişimlerin yer aldığı endüstrilerdeki uygulamaları, pek çok örnekle sunulmuştur.
+
+Kitabın birinci bölümünde süreçler ve süreç değişkenleri tanımlanmış, serbestlik derecesi kavramı ve problem çözme tekniği verilmiştir. İkinci ve üçüncü bölümlerde ise yatışkın hal için kütle ve enerji denkliklerinin temel kavramları verilerek kimya tesisleri ve özellikle de biyosüreçlerdeki uygulamaları ile ilgili bir çok örnek sunulmuştur. Kitabın dördüncü bölümünde, kütle-enerji denkliklerinin endüstride uygulamaları konusunda demir cevherinden demir üretimi ve etil alkolden dietil eter üretim tesisleri örnek seçilerek sunulmuştur.
+
+Kitabın son bölümünde, zamana bağımlı olan süreç değişkenlerinin yer aldığı yatışkın olmayan süreçlerde kütle-enerji denklikleri konusunda detaylı bilgi verilmiş; yatışkın olmayan kütle-enerji denkliklerinin, reaksiyon mühendisliği, süreç dinamiği ve kontrolü ve biyokimyasal reaksiyonların yer aldığı süreçlerde uygulamaları açıklanarak araştırmalardaki önemi vurgulanmıştır. Sonuç olarak bu kitap gıda, biyo ve kontrol mühendisliği bölümlerinde kütle ve enerji denklikleri ile ilgili dersleri alan lisans ve yüksek lisans öğrencilerine olduğu kadar, endüstride süreç tasarımı, simulasyonu ve denetimi ile ilgilenen mühendisler için de yaralı olabilecek bir kaynak olarak hazırlanmıştır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051339986</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobel Akademik Yayıncılık</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=K%C3%BCtle+ve+Enerji+Denklikleri&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/kutle-ve-enerji-denklikleri/bilim/muhendislik/urunno=0000000631708"/>
+        <dc:subject xml:lang="en">Energy industries</dc:subject>
+        <dc:subject xml:lang="en">Energy sources</dc:subject>
+        <dc:subject xml:lang="tr">Enerji Kaynakları</dc:subject>
+        <dc:subject xml:lang="tr">Enerji endüstrileri</dc:subject>
+        <dc:title xml:lang="tr">Kütle ve Enerji Denklikleri</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:type>
+        <rdfs:label xml:lang="en">Kutle_ve_Enerji_Denklikleri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wkypUgh7tZS7OQxUEFaVc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wkypUgh7tZS7OQxUEFaVc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHjV5FV2UoxdVSJ0tLyWOa"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nariman A. Şerifoğlu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:description xml:lang="tr">Elektrik Makinaları kitabı iki cilt olarak düzenlenmiştir.
+
+Birinci ciltte transformatörler ve asenkron motorlar incelenmektedir. Kitabın birinci bölümünde; bir fazlı ve üç fazlı transformatörler ele alınmış; transformatörün eş değer şeması, parametreleri, temel bağlantıları, çalışma karakteristikleri ve paralel çalışma koşulları verilmiştir. İkinci bölümde ise kısa devre ve faz motorlu üç fazlı asenkron makinalarının parametreleri, eş değer şemaları, çalışma karakteristikleri ile yol verme yöntemleri, anormal durumlarda davranışı ve özel çalışma durumları anlatılmıştır. Çalışmada bir fazlı asenkron motorlar ise ayrıca ele alınmıştır.
+
+İkinci ciltte ise senkron makinalar ve doğru akım makinaları ele alınmıştır. Kitabın birinci bölümünde senkron makinaların uyarma sistemi; generatör, motor ve kompansatör çalışma durumlarında senkron makinanın parametreleri, vektör diyagramı, temel bağlantıları, çalışma karakteristikleri verilmiş; senkron generatörün paralel bağlanması, yüklenmesi, gerilimin ayarlanması, moment karakteristiği ve kararlılık koşulları incelenmiştir. Senkron motorun yol alma süreci, çalışma karakteristikleri, ayar karakteristiği ve senkron kompansatör çalışma durumu ele alınmış, özel senkron makinalar tanıtılmıştır. İkinci bölümde ise doğru akım makinalarının uyarma şekilleri, parametreleri, temel bağıntıları, çalışma karakteristikleri, yol verme ve hız ayarı yöntemleri, paralel çalışma koşulları, kayıpları ve verimi anlatılmış, özel doğru akım motorları tanıtılmıştır. Her iki kitapta konularla ilgili çözümlü problemler ile çeşitli sorular verilmiştir. Elektrikelektronik bölümü öğrencileri ve enerji sektöründe çalışan mühendis ve teknisyenlere yararlı olacak bir kitaptır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944772099</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobel Akademik Yayıncılık</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Elektrik+makinalar%C4%B1+cilt-2&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/elektrik-makinalari-cilt-2/nariman-a-serifoglu/bilim/muhendislik/urunno=0000000514275"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektrik Makinaları</dc:subject>
+        <dc:title xml:lang="tr">Elektrik Makinaları Cilt</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektrik_Makinaları_Cilt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDH4EHyRFOVbEfo9HHsP3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDH4EHyRFOVbEfo9HHsP3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IavdJMsLUxHIq4hopSeJy"/>
+        <rdfs:label xml:lang="en">physics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHjV5FV2UoxdVSJ0tLyWOa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHjV5FV2UoxdVSJ0tLyWOa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RI5B2kYI1JOJtfV6S1EGnR"/>
+        <rdfs:label xml:lang="en">Electrician_Engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBI13TFG9ydLHldG3rwDH2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBI13TFG9ydLHldG3rwDH2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IavdJMsLUxHIq4hopSeJy"/>
+        <rdfs:label xml:lang="en">mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfB5UaSq4giurivejmGhzG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfB5UaSq4giurivejmGhzG">
+        <rdfs:label xml:lang="en">typeOfMyBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfQNKeqyQLUX3OscCZoXpt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfQNKeqyQLUX3OscCZoXpt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RRbOGaXouIh18wte0J7c83"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İlhan Durusoy</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:description xml:lang="tr">Ülkemizde inşaat şirketleri genelde iki tip iş yapar, taahhüt ve yapsat işi. İkisinin tek ortak yanı inşaattır. Yapsat, inşaat işinden çok farklı olarak proje geliştirme, satış ve pazarlama işleri ağır basar. Satış gelirleri zaman içinde ve piyasaya göre oluşur ve yapsatta fizibilite çok önem kazanır. İnşaat işine fizibilite mantığı ile bakmak gerekir. Müteahhit olarak inşaat şirketi her türlü inşaat işine teklif verir, teklifi uygun bulunursa sözleşme yapar ve işi belli bir süre ve bedelle bitirir. Bu kitapta inşaat şirketi organizasyonu, ekip kurma, teklif verme, iş alma, keşif, planlama, maliyet muhasebesi, inşaat kademeleri, örnek şirket prosedürleri, örnek inşaat taahhüt sözleşmesi verilmiştir. Ayrıca çeşitli büyük inşaat şirketlerinde üst düzeyde görev yapmış 55 yıllık inşaat mühendisi olarak inşaat şirketlerinde görmüş olduğum yanlışlıklar, eksiklikler ve tavsiyelerim bulunmaktadır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752312685</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boyut Yayın Grubu</dc:publisher>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/insaat-muteahhidi-ve-insaatta-fizibilite/bilim/muhendislik/urunno=0001958015001"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fizibilite</dc:subject>
+        <dc:title xml:lang="tr">İnşaat Müteahhidi ve İnşaatta Fizibilite</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label xml:lang="en">Insaat_Muteahhidi_ve_Insaatta_Fizibilite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrfbSBSUUEsZQll89RzrI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrfbSBSUUEsZQll89RzrI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDH4EHyRFOVbEfo9HHsP3"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebru Kılıç</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Greene</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:description xml:lang="tr">Bugün dünyanın her yerinde matematikçiler ve fizikçiler en iddialı fizik kuramlarından biri olan süpersicim kuramı üzerine hararetle çalışıyor. Sicim kuramı Einstein’ın 30 yıl boyunca üzerinde çalıştığı birleşik alan kuramına giden yolda önemli bir adım. Ve sonunda, genel görelilik ve kuantum mekaniği arasındaki gerilim çözülmek üzere: Sicim kuramı, atomaltı parçacıkların çılgınca dansından göksel galaksilerin görkemli girdabına kadar evrendeki tüm harika olayların, tek bir büyük fiziksel ilkenin yansımaları olduğunu ilan ediyor.
+
+Dünyanın önde gelen sicim kuramcılarından Brian Greene, ustalıkla ve anlaşılır bir dille kaleme aldığı Evrenin Zarafeti’nde 20. yüzyıl fiziğinin “her şeyin kuramı” arayışının ardındaki bilimsel hikâyeyi ve insani çabayı anlatıyor, kuantum mekaniğinden genel göreliliğe kadar pek çok kavram üzerinden sicim kuramını çevreleyen gizem perdesini aralıyor.
+
+Greene’in uzman bilimsel kavrayışı ile edebî yaratıcılığının benzersiz bir karışımı olan Evrenin Zarafeti, bizi muhteşem evrenimizin nasıl çalıştığını anlamaya daha da yaklaştıran heyecan verici bir okuma şöleni.</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257118712</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tellekt</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Evrenin+zarafeti&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/evrenin-zarafeti/brian-greene/bilim/fizik/urunno=0001973278001"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evren</dc:subject>
+        <dc:title xml:lang="tr">Evrenin Zarafeti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:type>
+        <rdfs:label xml:lang="en">Evrenin_Zarafeti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RI5B2kYI1JOJtfV6S1EGnR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RI5B2kYI1JOJtfV6S1EGnR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IavdJMsLUxHIq4hopSeJy"/>
+        <rdfs:label xml:lang="en">Engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNQ8a37AGUmic7oaN1MMfD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNQ8a37AGUmic7oaN1MMfD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBI13TFG9ydLHldG3rwDH2"/>
+        <rdfs:label xml:lang="en">geometric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRbOGaXouIh18wte0J7c83 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRbOGaXouIh18wte0J7c83">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RI5B2kYI1JOJtfV6S1EGnR"/>
+        <rdfs:label xml:lang="en">buildingEngineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp9h2KzP9EOtJGbLNcOwoP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rp9h2KzP9EOtJGbLNcOwoP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDH4EHyRFOVbEfo9HHsP3"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gülen Aktaş</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albert Einstein</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kitap, dünyada adı en çok bilinen fizikçi Einstein&apos;in, bu üne sahip olmasına yol açan kuram ve görüşlerini kendi dilinden ve kendi deyimiyle &quot;bir lise mezununun anlayabileceği&quot; bir düzeyde okuyucuya sunmaktadır. Yakın çevremizde hemen elle tutup gözle göremeyeceğimiz olayların anlaşılmasını sağlayan bu özel ve genel görelilik kuramları, evrenin yaradılışından günümüze kadar geçerliliği kanıtlanmış olan en temel kurallardandır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789754680119</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Say Yayınları</dc:publisher>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=%C4%B0zafiyet+Teorisi%C2%A0&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:source rdf:resource="https://www.dr.com.tr/Kitap/Izafiyet-Teorisi/Albert-Einstein/Bilim/Fizik/urunno=0000000061201"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">görelilik</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">izafiyet</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uzay-zaman</dc:subject>
+        <dc:title xml:lang="tr">İzafiyet Teorisi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:type>
+        <rdfs:label xml:lang="en">izafiyetTeorisi</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
